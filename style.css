@@ -1,0 +1,99 @@
+body{
+    font-family: 'Work Sans', sans-serif;
+    margin: 0;
+}
+/* banner */
+
+section{
+    margin-top: 140px;
+}
+
+/* failures */
+.failure-container{
+    display: flex;
+    gap: 100px;
+}
+.failure-list{
+    margin-top: 250px;
+}
+.failure-head{
+    font-weight: 700;
+    font-size: 40px;
+}
+.failure-description{
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+/* my-plan */
+.plan-header{
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.my-plan{
+    display: flex;
+    justify-content: space-around;
+
+}
+.plan-boxes{
+   text-align: center;
+    
+}
+footer{
+    margin-top: 300px;
+    background-color: black;
+    color: white;
+}
+.containers{
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+}
+.future{
+    margin-left: 150px;
+    margin-top: 100px;
+}
+.form{
+    margin-right: 300px;
+    margin-top: 100px;
+}
+.future h1{
+    color: white;
+}
+.future-desc.{
+    margin-top: 31px;
+    color: white;
+    font-weight: 400;
+    font-size: 10px;
+}
+.email{
+    margin-top: 24px;
+}
+.number{
+    margin-top: 24px;
+}
+.icons > img{
+    margin-right: 20px;
+    margin-top: 24px;
+    margin-bottom: 70px;
+}
+.email-input{
+    margin-top: 31px;
+    margin-bottom: 31px;
+    width: 325px;
+    /* height: 64px; */
+    border-radius: 8px;
+    color: black;
+    border: 2px solid grey;
+    background-color: black;
+    padding: 21px;
+}
+.btn-sub{
+    padding: 20px 36px;
+    border-radius: 8px;
+    background-color: white;
+    color: #F15B22;
+    font-weight: 600;
+}
