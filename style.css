@@ -16,7 +16,10 @@ section{
 /* failures */
 .failure-container{
     display: flex;
-    gap: 100px;
+    gap: 200px;
+}
+.failure-container img{
+    margin-left: 30px;
 }
 .failure-list{
     margin-top: 250px;
