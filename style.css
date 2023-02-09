@@ -41,6 +41,7 @@ section{
    text-align: center;
     
 }
+/* footer */
 footer{
     margin-top: 300px;
     background-color: black;
@@ -49,14 +50,14 @@ footer{
 .containers{
     display: flex;
     justify-content: space-between;
-    gap: 100px;
+    gap: 150px;
 }
 .future{
     margin-left: 150px;
     margin-top: 100px;
 }
 .form{
-    margin-right: 300px;
+    margin-right: 200px;
     margin-top: 100px;
 }
 .future h1{
@@ -96,4 +97,62 @@ footer{
     background-color: white;
     color: #F15B22;
     font-weight: 600;
+}
+/* challenges */
+.goals-header{
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.goals{
+    display: flex;
+}
+
+#right{
+    color: green;
+   
+}
+.goals{
+   justify-content: space-between;
+   gap: 100px;
+    
+    
+}
+.goals-container {
+    border-radius: 5px;
+    padding: 20px 20px;
+text-align: center;
+box-shadow:10px 5px 10px 5px grey;
+background-color: white;
+color: #F15B22;
+}
+.goals-container i{
+    color: #F15B22;
+}
+
+/* gradient */
+.gradient{
+    margin-left: 200px;
+    background-image: url('new-year-new-me-main/images/gradient2.png'),url('new-year-new-me-main/images/watch.png');
+    background-repeat: no-repeat,no-repeat;
+    background-position: left,right;
+    text-align: left;
+    border-radius: 8px;
+}
+.gradient h1{
+  
+    color: white;
+    font-weight: 700;
+    font-size: 40px;
+    padding:59px 64px;
+}
+.call-btn{
+    padding: 20px 36px;
+    border-radius: 8px;
+    background-color: white;
+    color: #F15B22;
+    font-weight: 600;
+    border: 2px solid white;   
+   
 }
