@@ -4,6 +4,11 @@ body{
 }
 /* banner */
 
+.banner{
+    height: 600px;
+    width: 1349px;
+}
+
 section{
     margin-top: 140px;
 }
@@ -84,9 +89,9 @@ footer{
     margin-top: 31px;
     margin-bottom: 31px;
     width: 325px;
-    /* height: 64px; */
+    
     border-radius: 8px;
-    color: black;
+    color: white;
     border: 2px solid grey;
     background-color: black;
     padding: 21px;
@@ -156,3 +161,4 @@ color: #F15B22;
     border: 2px solid white;   
    
 }
+
